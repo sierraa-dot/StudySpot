@@ -1,0 +1,55 @@
+﻿[0m[36m                                                          
+               ######                ######               
+             ###     ####        ####     ###             
+            ##          ###    ###          ##            
+            ##             ####             ##            
+            ##             ####             ##            
+            ##           ##    ##           ##            
+            ##         ###      ###         ##            
+             ##  ########################  ##             
+          ######    ###            ###    ######          
+      ###     ##    ##              ##    ##     ###      
+   ###         ## ###      ####      ### ##         ###   
+  ##           ####      ########      ####           ##  
+ ##             ###     ##########     ###             ## 
+  ##           ####      ########      ####           ##  
+   ###         ## ###      ####      ### ##         ###   
+      ###     ##    ##              ##    ##     ###      
+          ######    ###            ###    ######          
+             ##  ########################  ##             
+            ##         ###      ###         ##            
+            ##           ##    ##           ##            
+            ##             ####             ##            
+            ##             ####             ##            
+            ##          ###    ###          ##            
+             ###     ####        ####     ###             
+               ######                ######               
+                                                          [39m
+
+[96m[1m              Welcome to React Native 0.85.1!                [22m[39m
+[2m                 Learn once, write anywhere               [22m
+[0m
+node.exe : [31m[1merror[22m[39m 
+[0mError occurred while trying to 
+create project directory.[0m
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" 
+"C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpe   
+ cified: ([31m[1merror... dire    
+ctory.[0m:String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorId : Native   
+ CommandError
+ 
+[0mError: ENOENT: no such file or directory, mkdir ''
+    at Object.mkdirSync (node:fs:1363:26)
+    at setProjectDirectory (C:\Users\sarra\AppData\Local\npm-cache\_npx\2788f5fbd47acb89\node_modules\@react-native-community\cli\build\commands\init\init.js:154:24)
+    at createFromTemplate (C:\Users\sarra\AppData\Local\npm-cache\_npx\2788f5fbd47acb89\node_modules\@react-native-community\cli\build\commands\init\init.js:206:34)
+    at createProject (C:\Users\sarra\AppData\Local\npm-cache\_npx\2788f5fbd47acb89\node_modules\@react-native-community\cli\build\commands\init\init.js:360:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async Object.initialize [as func] (C:\Users\sarra\AppData\Local\npm-cache\_npx\2788f5fbd47acb89\node_modules\@react-native-community\cli\build\commands\init\init.js:438:7)
+    at async Command.handleAction (C:\Users\sarra\AppData\Local\npm-cache\_npx\2788f5fbd47acb89\node_modules\@react-native-community\cli\build\index.js:137:9)[0m
+[36m[1minfo[22m[39m [0m[2mRun CLI with [0m--verbose[0m [2mflag for more details.[22m[2m[22m[0m
